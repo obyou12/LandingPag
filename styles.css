@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    font-weight: 130;
+}
+
+h5{
+    font-size: larger;
+    margin: 0;
+    font-weight:900;
+}
+
+.log-div{
+    font-size:large;
+    font-weight:300;
+}
+
+
+.native-bar{
+    border-bottom: 1px solid black;
+}
+.native-bar ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 10px 100px 10px 100px;
+}
+.native-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nat-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about-main{
+    display: flex;
+    justify-content:space-evenly;
+}
+.pro-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pic{
+    display: block;
+    padding: 16px;
+    border: 1px solid rgb(186,179,169);
+    background-color: rgb(186,179,169);
+    width: 250px;
+    height: 350px;
+}
+
+.welcome-container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+/*Projects Part*/
+.projects-main{
+    border-top: 1px solid black;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.projects-info{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    width: 400px;
+    height: 300px; 
+}
+.projects-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.projects-img img{
+    width: 400px;
+    height: 400px;
+}
+.empty{
+    width: 100px;
+    height: 50px;
+}
+
+.contact{
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+.leftside-contact{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-end;
+    padding-right: 350px;
+}
+.leftside-contact p{
+    height: auto;
+    width: 400px;
+}
+.leftside-contact button{
+    height: auto;
+    width: 100px;
+    
+}
+button{
+    background-color: white;
+}
+
+/* Quote*/
+.quote-container{
+
+    border-top: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote-container p{
+    font-size: large;
+    width: 900px;
+    height: 60px;
+}
+
+
+
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
